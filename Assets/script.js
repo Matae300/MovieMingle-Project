@@ -1,6 +1,8 @@
 /*functioning search bar that stores*/
 
 
+
+
 var userInput = document.querySelectorAll('.click');
 
 userInput.forEach(function(element) {
@@ -12,7 +14,7 @@ userInput.forEach(function(element) {
 });
 
 function getMovies(data) {
-    var url = 'https://moviesminidatabase.p.rapidapi.com/movie/order/' + data + '/';
+    var url = 'https://moviesminidatabase.p.rapidapi.com/movie/' + data + '/';
     console.log(url);
 
     const options = {
@@ -64,8 +66,22 @@ function youTubeApi(data) {
         console.log('Video Id: ', data.items[0].id.videoId);
         // url creation
         console.log('https://www.youtube.com/watch?v=' + data.items[0].id.videoId);
+
+        storeHistory(data);
         
     })
 }
 
+function storeHistory(data) {
+    var movieData = {
+        title: data.items[0].snippet.title,
+        url: 'https://www.youtube.com/watch?v=' + data.items[0].id.videoId,
+        description: data.items[0].snippet.description,
+    };
 
+    var movies = JSON.parse(localStorage.getItem('movies')) || [];
+
+    movies.push(movieData);
+
+    localStorage.setItem('movies', JSON.stringify(movies));
+}
