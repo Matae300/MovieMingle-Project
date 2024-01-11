@@ -1,18 +1,22 @@
+body {
+  font-family: 'Lemon', serif;
+  color: white;
+  background-color: rgb(10, 10, 10);
+}
 
-  body {
-    font-family: 'Lemon', serif;
-    color: white;
-    background-color: rgb(10, 10, 10);
-  }
-  
-  h1 {
-    color: white;
-    padding: 20px;
-    text-align: center;
-    background-color: #e91e63;
-    margin-top: 0;
-  }
+h1 {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  background-color: #e91e63;
+  margin-top: 0;
+}
 
-  nav .nav-wrapper {
-    background-color: #e91e63;
-  }
+nav .nav-wrapper {
+  background-color: #e91e63;
+}
+
+.card-stacked  {
+  background-color: #e91e63
+}
+
