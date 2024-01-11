@@ -1,5 +1,24 @@
 * {
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: 'Lemon', serif;
   color: white;
   background-color: rgb(10, 10, 10);
+}
+
+h1 {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  background-color: #ff66b2;
+  margin-top: 0;
+}
+
+#searchResults {
+  background-color: #ff66b2;
+  padding: 20px;
 }

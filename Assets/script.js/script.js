@@ -1,3 +1,4 @@
+//  EventListener 
 var genresButton = document.getElementById("genresButton");
         var popularityButton = document.getElementById("popularityButton");
         var ratingsButton = document.getElementById("ratingsButton");
@@ -17,3 +18,7 @@ var genresButton = document.getElementById("genresButton");
            
             console.log("Ratings button clicked");
         });
+
+//  EventListener 
+
+
