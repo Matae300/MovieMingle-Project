@@ -1,4 +1,5 @@
 body {
+  
   font-family: 'Lemon', serif;
   color: white;
   background-color: rgb(10, 10, 10);
@@ -20,3 +21,7 @@ nav .nav-wrapper {
   background-color: #e91e63
 }
 
+.waves-effect {
+  background-color: #e91e63;
+  color: white;
+}
