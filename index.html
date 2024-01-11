@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width" />
@@ -7,38 +8,41 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
- <link type="text/css" rel="stylesheet" href="materialize/css/materialize.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="materialize/css/materialize.css" media="screen,projection" />
   <link rel="stylesheet" href="Assets/Styles/styles.css">
 </head>
 
 <body>
-    <h1>Search History</h1>
+  <h1>Search History</h1>
 
-    <div class="col s12 m7">
+  <div class="col s12 m7">
 
-      <a class="waves-effect waves-light btn">Search</a>
+    <input type="text" id="searchInput" placeholder="Enter search term">
+    <button id="searchButton" class="waves-effect waves-light btn">Search</button>
 
-      <h2 class="header">Results</h2>
-      <div class="card horizontal">
-        <div class="card-image">
-          <img src="https://lorempixel.com/100/190/nature/6">
+
+    <h2 class="header">Results</h2>
+    <div class="card horizontal">
+      <div class="card-image">
+        <img src="https://lorempixel.com/100/190/nature/6">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information.</p>
         </div>
-        <div class="card-stacked">
-          <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information.</p>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
-          </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
         </div>
       </div>
     </div>
-  
-    
+  </div>
 
-    <script src="Assets/script.js/script.js"></script>
-    <script src="results.js"></script>
+
+
+  <script src="Assets/script.js/script.js"></script>
+  <script src="results.js"></script>
 </body>
-    <script src="Assets/script.js/script.js"></script>
-  </main>
+<script src="Assets/script.js/script.js"></script>
+</main>
+
 </html>
