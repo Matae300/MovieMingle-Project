@@ -1,4 +1,11 @@
-/*functioning search bar that stores*/
+var img = document.getElementById("wheel");
+img.addEventListener("click", function(){
+  if(img.src != "Images/R.gif"){
+    img.src = "https://picsum.photos/400/400";}
+  else{
+    img.src = "Images/R.gif";}});
+
+
 
 
 
@@ -85,3 +92,5 @@ function storeHistory(data) {
 
     localStorage.setItem('movies', JSON.stringify(movies));
 }
+
+
