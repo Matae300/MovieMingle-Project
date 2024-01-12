@@ -112,7 +112,10 @@ nav {
 
 
 
-
+.results {
+  display: flex;
+  align-items: center;
+}
 
 
 
@@ -125,6 +128,7 @@ nav {
 
 
 .opp {
+  flex: 1;
   margin: 30px;
   margin-bottom: 0px;
   margin-left: 350px;
