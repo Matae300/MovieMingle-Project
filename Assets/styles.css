@@ -184,7 +184,7 @@ h3 {
 }
 
 /* Show the dropdown menu on hover over the list item */
-.nav-wrapper .dark .pink:hover .dropdown {
+.nav-wrapper .pink:hover .dropdown {
   display: block;
 }
 
