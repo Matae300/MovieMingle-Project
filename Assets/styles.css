@@ -45,3 +45,9 @@ nav {
   top: 0;
 }
 
+.opp {
+  display: block;
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 180px;
+}
