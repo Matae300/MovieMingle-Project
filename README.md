@@ -1,10 +1,9 @@
 # MovieMingle-Project
 
 ## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+This project was designed to break up the endless scrolling while attempting to find a movie to watch. Attempting to put an end to indecisiveness. Movie Mingle allows a user to select a movie criteria such a specific genre, top rated movies, or most popular, and then this site will present the user with two options, with links to the trailers on youtube.
 
 ## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
 
 ## Visuals
 ![Screenshot of Home Page](Images/home.PNG)
