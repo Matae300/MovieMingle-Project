@@ -7,31 +7,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.css"  media="screen,projection"/>
-    <link rel="stylesheet" href="Assets/styles.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
+   <link rel="stylesheet" href="./assets/styles.css">
 </head>
 <body>
-    
-    <h1>Search History</h1>
+    <header>
+    <h1 class="brand-logo center">Search History</h1>
+    </header>
+    <nav>
+      <div class="nav-wrapper pink darken-3">
+        <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+          <i class="material-icons">menu</i>
+         </a>  
+        <ul class="left hide-on-med-and-down">
+          <li class="pink darken-3"><a href="index.html">Home</a></li>
+          <li class="pink darken-3 click"><a href="#">Clear History</a></li>
+        </ul>
+      </div>
+    </nav>
 
-    <div class="col s12 m7">
-  
-      <input type="text" id="searchInput" placeholder="Enter search term">
-      <button id="searchButton" class="waves-effect waves-light btn">Search</button>
-  
+
+    <ul class="sidenav" id="mobile-nav">
+      <li class="pink darken-3"><a href="index.html">Home</a></li>
+      <li class="pink darken-3 click"><a href="#">Clear History</a></li>
+    </ul>
+
+    <div class="col s12 m7" id="searchHistory">
   
       <h2 class="header">Results</h2>
       <div class="card horizontal">
-        <div class="card-image">
-          <img src="https://lorempixel.com/100/190/nature/6">
-        </div>
+        
         <div class="card-stacked">
           <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information.</p>
+            <ul id="searchResults">
+
+            </ul>
           </div>
-          <div class="card-action">
-            <a href="index.html">Back to Home Page</a>
-          </div>
+          
         </div>
       </div>
     </div>
@@ -40,8 +54,9 @@
 
 
 
-    <script src="./Assets/script.js"></script>
-    <script src="./Assets/history.js"></script>
+    <script src="./assets/script.js"></script>
+    <script src="./assets/history.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     
 </body>
 </html>
