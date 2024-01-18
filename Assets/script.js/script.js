@@ -37,6 +37,8 @@
 // });
 
 //random wheel event listener, currently still needs work
+
+//random wheel event listener, currently still needs work
 var img = document.getElementById("wheel");
 img.addEventListener("click", function(){
   if(img.src != "Images/R.gif"){
@@ -163,8 +165,3 @@ function storeHistory(data, oldData) {
 
     localStorage.setItem('movies', JSON.stringify(movies));
 }
-
-
-
-
-
