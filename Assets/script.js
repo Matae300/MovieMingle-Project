@@ -77,7 +77,7 @@ function randomMovies(data) {
 
 //function to call youtube api
 function youTubeApi(oldData, i) {
-    var searchUrl = 'https://www.googleapis.com/youtube/v3/search?part=snippet&q=' + oldData + '+trailer&type=video&key=AIzaSyAN78WM-3uf7m4lndC86PtmFKgYqW_F9S4'
+    var searchUrl = 'https://www.googleapis.com/youtube/v3/search?part=snippet&q=' + oldData + '+trailer&type=video&key=AIzaSyCKRBCofv03tifGxv4BstnIpHKOOCpxf0o'
     console.log(searchUrl)
     fetch(searchUrl)
     .then(response => response.json())
